@@ -1,3 +1,5 @@
 # security-smart-contract
 
-There is a vulnerability in the Bunbaggainer contract that I found
+There is a vulnerability in the Bunbaggainer contract that I found.
+->The addInvestment function of this contract allows a hacker to withdraw the entire balance of the contract by adding the address.
+->So, to prevent this vulnerability, use an OnlyOwner Modifier.
